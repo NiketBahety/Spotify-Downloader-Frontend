@@ -7,7 +7,7 @@ function Page() {
     let id = URL.split("/");
     id = id[id.length - 1];
     // window.location.href = `http://localhost:8000?id=${id}`;
-    window.location.href = `https://spotify-downloader-ryxm.onrender.com?id=${id}`;
+    window.location.href = `https://spotify-downloader-ryxm.onrender.com:8000?id=${id}`;
   };
 
   return (
